@@ -39,6 +39,22 @@ Unlike standard todo apps, this system automatically translates task metadata (`
 
 ---
 
+## 🔧 Backend Server Running (Django)
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-11 205515" src="https://github.com/user-attachments/assets/91c8000e-c061-4ce7-9e5e-24eddc9f8fa0" />
+
+---
+## 📡 API Endpoint Response (Task Data JSON)
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-11 205604" src="https://github.com/user-attachments/assets/c8d670b2-e313-416e-8449-1b2e3daf5f99" />
+
+---
+## 🖥️ Frontend Task Board Interface (React UI)
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-11 205838" src="https://github.com/user-attachments/assets/448be8b2-301d-49ed-9810-0422898e8a45" />
+
+---
+
 ## ⚙️ Deployment & Local Setup
 
 ### Prerequisites
