@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Dashboard</title>
+</head>
+<body>
+
+<h1>Task Dashboard</h1>
+
+<p>Total Tasks: {{ total }}</p>
+<p>Completed Tasks: {{ completed }}</p>
+<p>Pending Tasks: {{ pending }}</p>
+
+<h2>Task List</h2>
+
+<ul>
+{% for task in tasks %}
+    <li>
+        {{ task.title }} - {{ task.priority }}
+        {% if task.completed %}
+            ✅ Completed
+        {% else %}
+            ❌ Pending
+        {% endif %}
+    </li>
+{% empty %}
+    <li>No tasks available</li>
+{% endfor %}
+</ul>
+
+</body>
+</html>
